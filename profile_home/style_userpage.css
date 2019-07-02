@@ -1,0 +1,296 @@
+body{
+margin:0px;
+padding:0;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:50px 45px auto 50px;
+}
+
+/*---------------------------------------------------------------------------------css of the header----------------------------------------*/
+.header-grid{
+    height:40px;
+    width:auto;
+    background-color: #2f4f4f; 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:1fr;
+
+    }
+.dropbtn {
+    
+    background-color: #424f4f;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 7%;
+    padding: 5px 5px 5px 5px;
+    }
+
+    /* Dropdown button on hover & focus */
+.dropbtn:hover, .dropbtn:focus {
+        background-color: #2980B9;
+    }
+
+    /* The container <div> - needed to position the dropdown content */
+.dropdown {
+        width:100%;
+        padding-top: 7px;
+        position: relative;
+        display: inline-block;
+    }
+
+    /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        width:100%;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    /* Links inside the dropdown */
+.dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-family: arial;
+        font-size: 15px;
+        font-style: italic;
+    }
+
+    /* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #ddd}
+
+    /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
+.show {display:block;}
+
+.logo-div{
+    height: 40px;
+    padding-bottom: -4px;
+}
+
+.login-div{
+    padding-top: 7px;
+}
+
+
+.myButton {
+	
+	background-color: #424f4f;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+	border:0;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding: 5px 5px 5px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #263666;
+    margin-left:50%;
+}
+.myButton:hover {
+	background-color:aquamarine;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.logo-text{
+    font-size: 18px;
+    font-family: Arial;
+    text-align: center;
+    color: aqua;
+}
+
+/*---------------------------------------------------------------------------------css of the header----------------------------------------*/
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+}
+
+/*---------------------------------------------------------------------------------css of the ticket----------------------------------------*/
+.ticket h3{
+    font-size:15px;
+    color:grey;
+    font-family: arial;  
+}
+
+.ticket h4{
+    font-size:13px;
+    color:grey;
+    font-family: arial
+}
+
+.ticket button{
+    background-color:red;
+    color:white;
+    border-style: none;
+    width: 50%;
+    margin:auto;
+}
+
+
+
+
+
+
+.tabcontent {
+    height: auto;
+    display:none;
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    background-color: #e8ede6;
+}
+
+
+#fname,#lname,#contact,#city,#username,#email{
+  width:70%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display:inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin:0% 35% 3% 35%;
+}
+#password,#cpassword{
+  width:70%;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  display:inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin:0% 35% 3% 35%;
+}
+#update,#feed{
+  width:70%;
+  cursor: pointer;
+  padding: 12px 20px;
+  color:white;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  margin:0% 35% 2% 35%;
+  background-color: #4CAF50;
+  border:none;
+}
+button:hover {
+    opacity: 0.8;
+}
+
+body{
+  background-color: #e8ede6;
+}
+
+
+
+
+
+/*-----------------------------------------------------------------------------------------css of the footer-------------------------------*/
+.footer-grid{
+    position: relative;
+    width: auto;
+    background-color: 	#2f4f4f;
+    height:250px;
+    width:auto;
+    display: grid;
+    grid-template-columns:1fr;
+    grid-template-rows:1fr 1fr 1fr 1fr;
+    
+}
+
+.location-2-div{
+    height: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+.news-letter{
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    height:60px;
+    width:auto;   
+}
+.socials-div{
+    display: flex;
+    justify-content: center;
+}
+.abouts-div{
+    display: flex;
+    justify-content: center;
+}
+
+.location-2-div h1{
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: arial;
+    font-size :12px;
+    color: gray;
+    
+}
+
+.news-letter h1{
+    font-family: arial;
+    font-size :12px;
+    color: gray;
+}
+
+.socials-div h1{
+    font-family: arial;
+    font-size :12px;
+    color: gray;
+    
+}
+.abouts-div h1{
+    font-family: arial;
+    font-size :12px;
+    color: gray;
+    
+}
+
+.movie-info{
+    min-height:400px;
+}
